@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TeamShare2.FirstPage"
+             Title="First Page">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Entry x:Name="Entry1" Placeholder="Напиши что нибудь)"></Entry>
+            <Button Text="Нажми!" FontAttributes="Bold" Clicked="ButtonHello_Click"></Button>
+            <Label x:Name="Label1" FontSize="27" Text="Ну ты и написал!!!" />
+
+            <Entry x:Name="Entry2" Placeholder="Что Артур хочет о Тани"></Entry>
+            <Button Text="Нажми!" FontAttributes="Bold" Clicked="ButtonHello_Click2"></Button>
+            <Label x:Name="Label2" FontSize="27" Text="Узри жена!" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
