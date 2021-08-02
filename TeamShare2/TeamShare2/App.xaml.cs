@@ -10,7 +10,7 @@ namespace TeamShare2
         {
             InitializeComponent();
 
-            MainPage = new CodeOnlyPage();
+            MainPage = new ConteinersStackLayout();
         }
 
         protected override void OnStart()

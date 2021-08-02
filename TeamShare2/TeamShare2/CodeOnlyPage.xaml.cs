@@ -17,6 +17,7 @@ namespace TeamShare2
             InitializeComponent();
         }
 
+        /*
         protected override void OnAppearing()
         {
             StackLayout layout = new StackLayout();
@@ -37,8 +38,8 @@ namespace TeamShare2
 
             Entry input1 = new Entry()
             {
-                IsEnabled = false,
-                Text = "Some text"
+            IsEnabled = true,
+            Text = "Some text"
             };
 
 
@@ -55,7 +56,7 @@ namespace TeamShare2
 
             CheckBox chekBox = new CheckBox()
             {
-                IsChecked = true
+            IsChecked = true
             };
 
 
@@ -69,8 +70,9 @@ namespace TeamShare2
             layout.Children.Add(input1);
             layout.Children.Add(horizontalStack);
 
-            Content = layout;
+            Content = layout;        
         }
+    */
 
     }
 }

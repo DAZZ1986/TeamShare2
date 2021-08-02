@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TeamShare2.ConteinersStackLayout">
+    <ContentPage.Content>
+        
+        
+        <!-- делаем с вертикальным stacklayout-->
+        <!--<StackLayout Orientation="Vertical" Spacing="10" >
+            <Label Text="Основные цвета" />
+            <BoxView Color="Red"/>
+            <BoxView Color="Yellow"/>
+            <BoxView Color="Blue" />
+            
+            <Label Text="Смесовые цвета" />
+            <BoxView Color="Green"/>
+            <BoxView Color="Orange"/>
+            <BoxView Color="Purple"/>
+        </StackLayout> -->
+
+        
+        
+        <!-- теперь делаем с горизонтальным stacklayout-->
+        <!--<StackLayout Margin="20" Orientation="Horizontal" >
+            <BoxView Color="Red"/>
+            <BoxView Color="Yellow"/>
+            <BoxView Color="Blue" Margin="30,0,30,0"/>
+            <BoxView Color="Green"/>
+            <BoxView Color="Orange"/>
+            <BoxView Color="Purple"/>
+        </StackLayout>-->
+
+
+
+    </ContentPage.Content>
+</ContentPage>
