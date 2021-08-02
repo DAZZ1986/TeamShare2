@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TeamShare2.Les8_Pos_Elem">
+    <ContentPage.Content>
+
+
+        <!-- Horizontal - сделали через xaml только через другие элементы LayoutOptions -->
+        <StackLayout Margin="15" Orientation="Horizontal">
+            <Label Text="Start1"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="Start"/>
+            <Label Text="Start"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="StartAndExpand"/>
+            <Label Text="Center"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Label Text="End"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="EndAndExpand"/>
+            <Label Text="Fill"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="FillAndExpand"/>
+            <Label Text="Fill1"
+                   BackgroundColor="Gray"/>
+        </StackLayout>
+
+
+
+        <!-- Vertical - сделали через xaml только через другие элементы LayoutOptions -->
+        <!--<StackLayout Margin="15">
+            
+            <BoxView BackgroundColor="Red"
+                     HeightRequest="1"/>
+            <Label Text="Start"
+                   BackgroundColor="Gray"
+                   VerticalOptions="Start"/>
+
+            <BoxView BackgroundColor="Red"
+                     HeightRequest="1"/>
+            <Label Text="Start"
+                   BackgroundColor="Gray"
+                   VerticalOptions="StartAndExpand"/>
+            
+            <BoxView BackgroundColor="Red"
+                     HeightRequest="5"/>
+            <Label Text="Center"
+                   BackgroundColor="Gray"
+                   VerticalOptions="CenterAndExpand"/>
+            
+            <BoxView BackgroundColor="Red"
+                     HeightRequest="10"/>
+            <Label Text="End"
+                   BackgroundColor="Gray"
+                   VerticalOptions="EndAndExpand"/>
+            
+            <BoxView BackgroundColor="Red"
+                     HeightRequest="15"/>
+            <Label Text="Fill"
+                   BackgroundColor="Gray"
+                   VerticalOptions="FillAndExpand"/>
+
+            <BoxView BackgroundColor="Red"
+                     HeightRequest="15"/>
+            <Label Text="Fill"
+                   BackgroundColor="Gray"
+                   VerticalOptions="Fill"/>
+            
+            <BoxView BackgroundColor="Red"
+                     HeightRequest="10"/>
+        </StackLayout> -->
+
+
+
+        <!-- сделали через xaml -->
+        <!--<StackLayout Margin="15">
+            <Label Text="On left"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="Start" />
+            <Label Text="On middle"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="Center"/>
+            <Label Text="On right"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="End"/>
+            <Label Text="Растянуто по Ox"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="Fill"/>
+        </StackLayout> -->
+
+
+
+    </ContentPage.Content>
+</ContentPage>
